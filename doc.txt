@@ -1,0 +1,33 @@
+Mini project: Book mangement system
+- Auth module: register, login, logout
+- User: (admin and user)
++ admin: get list, get details, update, delete user
++ user: get user details, update (self)
+- Book:
++ admin: add new book, aprrove book, get list, get details, update, delete book
++ user: add new book, get list, get details, update, delete book
+- Category:
++ admin: create new, get list, get details, update, delete
++ user: get list, get details
+
+- Database:
+
++ User:
+user_id
+username
+email
+password
+isAdmin
+
++ Book:
+book_id
+title
+user_id // user that upload this book
+genre
+published_date
+category_id
+isApproved
+
++ Category:
+category_id
+category_name

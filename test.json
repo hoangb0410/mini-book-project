@@ -1,0 +1,46 @@
+{
+    "success": true,
+    "code": 200,
+    "data": {
+        "id": 1,
+        "name": "Venue",
+        "typeId": 2,
+        "imageKey": null,
+        "address": {
+            "state": "New South Wales",
+            "suburb": "Sydney",
+            "postalCode": "2000",
+            "apartmentUnit": "Unit 4B",
+            "streetAddress": "123 Example Street"
+        },
+        "contactDetails": null,
+        "operatingHours": null,
+        "seatingCapacity": null,
+        "cuisineType": null,
+        "stripeCustomerId": null,
+        "subscriptionId": null,
+        "subscriptionPlanId": 2,
+        "status": "active",
+        "createdAt": "2024-11-23T06:30:00.651Z",
+        "updatedAt": "2024-12-05T08:53:17.760Z",
+        "deletedAt": null,
+        "venueType": {
+            "id": 2,
+            "name": "venue type 1",
+            "description": "ABC",
+            "createdAt": "2024-11-27T17:00:00.000Z",
+            "updatedAt": "2024-11-27T17:00:00.000Z",
+            "deletedAt": null
+        },
+        "users": [
+            {
+                "email": "hoang.caoviet@adamosoft.com"
+            }
+        ],
+        "subscriptionPlan": {
+            "id": 2,
+            "name": "Hive Small"
+        },
+        "imageUrl": null
+    }
+}
